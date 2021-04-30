@@ -7,7 +7,6 @@ album: "Cuando digo futuro"
 author: "Silvio Rodríguez"
 ---
 
-
 - Ojalá que las hojas
 - no te toquen el cuerpo cuando caigan
 - para que no las puedas
