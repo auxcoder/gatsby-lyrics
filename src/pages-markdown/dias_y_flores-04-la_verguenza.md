@@ -22,7 +22,7 @@ author: "Silvio Rodríguez"
 
 - Tengo zapatos tengo camisa tengo sombrero
 - tengo hasta risa mas si tuviera en mi ropero
-- solo la percha vacia la verg�enza tendria
+- solo la percha vacia la vergüenza tendria
 - ¡A que mas!
 
 ---
