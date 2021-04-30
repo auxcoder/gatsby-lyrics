@@ -29,7 +29,7 @@ export const postQuery = graphql`
 query AlbumTracks($album: String!) {
   allMarkdownRemark(
     filter: {frontmatter: {album: {eq: $album}}}
-    sort: {fields: [frontmatter___track], order: DESC}
+    sort: {fields: [frontmatter___track], order: ASC}
   ) {
       edges {
         node {
