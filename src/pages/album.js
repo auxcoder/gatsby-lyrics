@@ -1,12 +1,15 @@
 import "./lyric.css"
 import React from 'react'
 import Link from 'gatsby-link'
-
-export default function Template({data, pathContext}) {
+import { graphql } from "gatsby";
+// components
+import Layout from "../layouts/index";
+//
+const albumTemplate = ({data, pathContext}) => {
   const _tracks = data.allMarkdownRemark.edges
   return (
-    <div>
-      <Link to="/blog">Go Back</Link>
+    <Layout>
+      <Link to="/">Go Back</Link>
       <h1>Album: {pathContext.album}</h1>
       <div>
         <small>Interpreter: {pathContext.author} </small>,
@@ -21,29 +24,30 @@ export default function Template({data, pathContext}) {
           </div>
         </div>
       ))}
-    </div>
+    </Layout>
   )
 }
 
-export const postQuery = graphql`
+export const pageQuery = graphql`
 query AlbumTracks($album: String!) {
   allMarkdownRemark(
     filter: {frontmatter: {album: {eq: $album}}}
     sort: {fields: [frontmatter___track], order: ASC}
   ) {
-      edges {
-        node {
-          id
-          frontmatter {
-            track
-            path
-            title
-            date
-            author
-            album
-          }
+    edges {
+      node {
+        id
+        frontmatter {
+          track
+          path
+          title
+          date
+          author
+          album
         }
       }
     }
   }
-`
+}`
+
+export default albumTemplate

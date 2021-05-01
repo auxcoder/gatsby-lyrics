@@ -30,7 +30,7 @@ exports.createPages = ({boundActionCreators, graphql}) => {
     entries.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
-        component: path.resolve('src/templates/lyric-page.js'),
+        component: path.resolve('src/pages/lyric.js'),
       })
     })
 
@@ -43,17 +43,18 @@ exports.createPages = ({boundActionCreators, graphql}) => {
         _albumsFound.push(_album)
         _albumWithMeta.push({
           date: node.frontmatter.date,
+          // path: node.frontmatter.path,
           album: node.frontmatter.album,
           author: node.frontmatter.author,
         })
       }
     })
-
+    // .toLowerCase().replaceAll(' ', '-')
     // create a page for each album
     _albumWithMeta.forEach(item => {
       createPage({
         path: `album/${item.album.toLowerCase().replaceAll(' ', '-')}`,
-        component: path.resolve('src/templates/album-page.js'),
+        component: path.resolve('src/pages/album.js'),
         context: item,
       })
     })
