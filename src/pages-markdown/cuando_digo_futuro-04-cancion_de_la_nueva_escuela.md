@@ -1,7 +1,7 @@
 ---
-path: "/canción-de-la-nueva-escuela"
-date: "1977"
 title: "Canción De La Nueva Escuela"
+title_slug: "canción-de-la-nueva-escuela"
+date: "1977"
 track: 4
 album: "Cuando digo futuro"
 author: "Silvio Rodríguez"

@@ -1,7 +1,7 @@
 ---
-path: "/la-oveja-negra"
-date: "1977"
 title: "La Oveja Negra"
+title_slug: "la-oveja-negra"
+date: "1977"
 track: 8
 album: "Cuando digo futuro"
 author: "Silvio Rodríguez"

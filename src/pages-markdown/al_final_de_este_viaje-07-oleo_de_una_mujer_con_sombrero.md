@@ -1,7 +1,7 @@
 ---
-path: "/oleo-de-una-mujer-con-sombrero"
-date: "1978"
 title: "Óleo De una Mujer Con Sombrero"
+title_slug: "oleo-de-una-mujer-con-sombrero"
+date: "1978"
 track: 7
 album: "Al final de este viaje"
 author: "Silvio Rodríguez"

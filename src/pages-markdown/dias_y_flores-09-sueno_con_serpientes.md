@@ -1,7 +1,7 @@
 ---
-path: "/sueno-con-serpientes"
-date: "1975"
 title: "Sueño Con Serpientes"
+title_slug: "sueno-con-serpientes"
+date: "1975"
 track: 9
 album: "Días y Flores"
 author: "Silvio Rodríguez"

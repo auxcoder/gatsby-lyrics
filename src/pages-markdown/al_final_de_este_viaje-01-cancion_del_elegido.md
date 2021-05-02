@@ -1,7 +1,7 @@
 ---
-path: "/cancion-del-elegido"
-date: "1978"
 title: "Canción del elegido"
+title_slug: "cancion-del-elegido"
+date: "1978"
 track: 1
 album: "Al final de este viaje"
 author: "Silvio Rodríguez"

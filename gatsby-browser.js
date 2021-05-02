@@ -4,4 +4,10 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
- // You can delete this file if you're not using it
+//  import React from 'react'
+//  import Layout from './src/layouts/index'
+
+ // Wraps every page in a component
+// export const wrapPageElement = ({ element }) => {
+//   return <Layout>{element}</Layout>
+// }

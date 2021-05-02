@@ -1,7 +1,7 @@
 ---
-path: "/como-esperando-abril"
-date: "1975"
 title: "Como Esperando Abril"
+title_slug: "como-esperando-abril"
+date: "1975"
 track: 3
 album: "Días y Flores"
 author: "Silvio Rodríguez"

@@ -1,7 +1,7 @@
 ---
-path: "/esta-cancion"
-date: "1975"
 title: "Esta Canción"
+title_slug: "esta-cancion"
+date: "1975"
 track: 8
 album: "Días y Flores"
 author: "Silvio Rodríguez"

@@ -1,7 +1,7 @@
 ---
-path: "/de-la-ausencia-y-de-tí"
-date: "1977"
 title: "De La Ausencia Y De Tí"
+title_slug: "de-la-ausencia-y-de-tí"
+date: "1977"
 track: 7
 album: "Cuando digo futuro"
 author: "Silvio Rodríguez"

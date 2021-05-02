@@ -1,7 +1,7 @@
 ---
-path: "/ojala"
-date: "1978"
 title: "Ojalá"
+title_slug: "ojala"
+date: "1978"
 track: 3
 album: "Al final de este viaje"
 author: "Silvio Rodríguez"

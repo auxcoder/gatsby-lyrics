@@ -1,7 +1,7 @@
 ---
-path: "/ojala"
-date: "1977"
 title: "Fusil Contra Fusil"
+title_slug: "ojala"
+date: "1977"
 track: 2
 album: "Cuando digo futuro"
 author: "Silvio Rodríguez"

@@ -1,7 +1,7 @@
 ---
-path: "/ojala"
-date: "1977"
 title: "Ojalá"
+title_slug: "ojala"
+date: "1977"
 track: 1
 album: "Cuando digo futuro"
 author: "Silvio Rodríguez"

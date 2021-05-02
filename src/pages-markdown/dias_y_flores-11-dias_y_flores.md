@@ -1,7 +1,7 @@
 ---
-path: "/dias-y-flores"
-date: "1975"
 title: "Días Y Flores"
+title_slug: "dias-y-flores"
+date: "1975"
 track: 11
 album: "Días y Flores"
 author: "Silvio Rodríguez"

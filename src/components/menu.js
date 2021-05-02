@@ -19,9 +19,6 @@ const Menu = () => (
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/albums">Albums</Link>
-      </li>
-      <li>
         <Link to="/lyrics">All Lyrics</Link>
       </li>
     </ul>

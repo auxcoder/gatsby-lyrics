@@ -1,7 +1,7 @@
 ---
-path: "/debo-partirme-en-dos"
-date: "1978"
 title: "Debo partirme en dos"
+title_slug: "debo-partirme-en-dos"
+date: "1978"
 track: 6
 album: "Al final de este viaje"
 author: "Silvio Rodríguez"
