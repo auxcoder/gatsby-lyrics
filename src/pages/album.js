@@ -5,20 +5,20 @@ import { graphql } from "gatsby";
 // components
 import Layout from "../layouts/index";
 //
-const albumTemplate = ({data, pathContext}) => {
+const albumTemplate = ({data, pageContext}) => {
   const _tracks = data.allMarkdownRemark.edges
   return (
     <Layout>
-      <Link to="/">Go Back</Link>
-      <h1>Album: {pathContext.album}</h1>
+      <Link to="/">Go to Albums</Link>
+      <h1>Album: {pageContext.album}</h1>
       <div>
-        <small>Interpreter: {pathContext.author} </small>,
-        <small>Released on: {pathContext.date} </small>
+        <small>Interpreter: {pageContext.author} </small>,
+        <small>Released on: {pageContext.date} </small>
       </div>
 
       {_tracks.map(item => (
         <div key={item.node.id}>
-          <Link to={item.node.frontmatter.path}>{item.node.frontmatter.track} - {item.node.frontmatter.title}</Link>
+          <Link to={`/${item.node.frontmatter.title_slug}`}>{item.node.frontmatter.track} - {item.node.frontmatter.title}</Link>
           <div className="meta">
             <small>Author: {item.node.frontmatter.author} </small>
           </div>
@@ -39,7 +39,7 @@ query AlbumTracks($album: String!) {
         id
         frontmatter {
           track
-          path
+          title_slug
           title
           date
           author
@@ -48,6 +48,7 @@ query AlbumTracks($album: String!) {
       }
     }
   }
-}`
+}
+`
 
 export default albumTemplate

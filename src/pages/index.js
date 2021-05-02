@@ -25,10 +25,9 @@ const albumsPage = ({ data }) => {
       <h1>Albums</h1>
 
       <div className="row">
-      {albums.map(item => (
-        <div key={item.id} className="col-xs-6 col-sm-3">
-
-          <Link to={`album/${item.frontmatter.album.toLowerCase().replaceAll(' ', '-')}`}>{item.frontmatter.album} ({item.frontmatter.date})</Link>
+      {albums.map(node => (
+        <div key={node.id} className="col-xs-6 col-sm-3">
+          <Link to={`album/${node.fields.album_slug}`}>{node.frontmatter.album} ({node.frontmatter.date})</Link>
         </div>
       ))}
       </div>
@@ -46,8 +45,11 @@ query AlbumsIndexQuery {
         id
         frontmatter {
           album
-          path
+          title_slug
           date
+        }
+        fields {
+          album_slug
         }
       }
     }

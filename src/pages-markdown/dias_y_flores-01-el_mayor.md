@@ -1,7 +1,7 @@
 ---
-path: "/el-mayor"
-date: "1975"
 title: "El Mayor"
+title_slug: "el-mayor"
+date: "1975"
 track: 1
 album: "Días y Flores"
 author: "Silvio Rodríguez"

@@ -1,7 +1,7 @@
 ---
-path: "/cuba-va"
-date: "1977"
 title: "Cuba Va"
+title_slug: "cuba-va"
+date: "1977"
 track: 9
 album: "Cuando digo futuro"
 author: "Silvio Rodríguez"

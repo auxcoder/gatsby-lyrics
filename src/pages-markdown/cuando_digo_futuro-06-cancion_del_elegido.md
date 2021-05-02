@@ -1,7 +1,7 @@
 ---
-path: "/la-era-está-pariendo-un-corazon"
-date: "1977"
 title: "Canción Del Elegido"
+title_slug: "la-era-está-pariendo-un-corazon"
+date: "1977"
 track: 6
 album: "Cuando digo futuro"
 author: "Silvio Rodríguez"

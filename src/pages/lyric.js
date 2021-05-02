@@ -7,7 +7,7 @@ import Layout from "../layouts/index";
 //
 const lyricTemplate = ({data}) => (
   <Layout>
-    <Link to="/">Go Back</Link>
+    <Link to={`/album/${data.markdownRemark.fields.album_slug}`}>Go to Album {data.markdownRemark.frontmatter.album}</Link>
     <hr />
     <h1>{data.markdownRemark.frontmatter.title}</h1>
     <div className="meta">
@@ -21,18 +21,22 @@ const lyricTemplate = ({data}) => (
 )
 
 export const pageQuery = graphql`
-query BlogPostByPath($path: String!) {
-  markdownRemark(frontmatter: { path: { eq: $path } }) {
+query LyricItem($album: String, $title: String) {
+  markdownRemark(frontmatter: {album: {eq: $album}, title: {eq: $title}}) {
     html
     frontmatter {
-      path
+      title_slug
       title
       author
       date
       album
       track
     }
+    fields {
+      album_slug
+    }
   }
-}`
+}
+`
 
 export default lyricTemplate

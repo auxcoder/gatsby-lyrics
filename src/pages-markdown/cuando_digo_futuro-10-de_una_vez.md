@@ -1,7 +1,7 @@
 ---
-path: "/de-una-vez"
-date: "1977"
 title: "De Una Vez"
+title_slug: "de-una-vez"
+date: "1977"
 track: 10
 album: "Cuando digo futuro"
 author: "Silvio Rodríguez"

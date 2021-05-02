@@ -1,7 +1,7 @@
 ---
-path: "/cuando-digo-futuro"
-date: "1977"
 title: "Cuando Digo Futuro"
+title_slug: "cuando-digo-futuro"
+date: "1977"
 track: 3
 album: "Cuando digo futuro"
 author: "Silvio Rodríguez"

@@ -1,7 +1,7 @@
 ---
-path: "/al-final-de-este-viaje"
-date: "1978"
 title: "Al final de este viaje"
+title_slug: "al-final-de-este-viaje"
+date: "1978"
 track: 5
 album: "Al final de este viaje"
 author: "Silvio Rodríguez"

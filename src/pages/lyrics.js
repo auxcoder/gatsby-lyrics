@@ -10,7 +10,7 @@ const LyricsPage = ({data}) => (
 
     {data.allMarkdownRemark.edges.map(item => (
       <div key={item.node.id}>
-        <Link to={item.node.frontmatter.path}>{item.node.frontmatter.track} - {item.node.frontmatter.title}</Link>
+        <Link to={`slug${item.node.frontmatter.title_slug}`}>{item.node.frontmatter.track} - {item.node.frontmatter.title}</Link>
       </div>
     ))}
   </Layout>
@@ -24,7 +24,7 @@ query LyricIndexQuery {
         id
         frontmatter {
           track
-          path
+          title_slug
           title
           date
           author

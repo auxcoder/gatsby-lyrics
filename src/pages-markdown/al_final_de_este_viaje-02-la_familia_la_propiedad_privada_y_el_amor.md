@@ -1,7 +1,7 @@
 ---
-path: "/la-familia-la-propiedad-privada-y-el-amor"
-date: "1978"
 title: "La familia, la propiedad privada y el amor"
+title_slug: "la-familia-la-propiedad-privada-y-el-amor"
+date: "1978"
 track: 2
 album: "Al final de este viaje"
 author: "Silvio Rodríguez"

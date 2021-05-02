@@ -1,7 +1,7 @@
 ---
-path: "/yo-digo-que-las-estrellas"
-date: "1975"
 title: "Yo Digo Que Las Estrellas"
+title_slug: "yo-digo-que-las-estrellas"
+date: "1975"
 track: 5
 album: "Días y Flores"
 author: "Silvio Rodríguez"

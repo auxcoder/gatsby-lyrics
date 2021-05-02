@@ -1,20 +1,38 @@
 const path = require('path')
+const _ = require("lodash")
 
-exports.createPages = ({boundActionCreators, graphql}) => {
+// https://www.gatsbyjs.com/docs/mdx/programmatically-creating-pages/#generate-slugs
+// https://www.gatsbyjs.com/docs/how-to/querying-data/page-query/#how-to-add-query-variables-to-a-page-query
+
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
+  if (node.internal.type === `MarkdownRemark`) {
+    const slug = _.kebabCase(node.frontmatter.album)
+    createNodeField({
+      node,
+      name: `album_slug`,
+      value: slug,
+    })
+  }
+}
+
+exports.createPages = ({actions, graphql}) => {
   return graphql(`
     {
       allMarkdownRemark {
         edges {
           node {
-            html
             id
             frontmatter {
               track
-              path
+              title_slug
               title
               date
-              author
               album
+              author
+            }
+            fields {
+              album_slug
             }
           }
         }
@@ -22,15 +40,18 @@ exports.createPages = ({boundActionCreators, graphql}) => {
     }
   `).then(res => {
     if (res.errors) return Promise.reject(res.errors)
-
-    const {createPage} = boundActionCreators
+    const {createPage} = actions
     const entries = res.data.allMarkdownRemark.edges
 
     // create page for each lyric
     entries.forEach(({ node }) => {
       createPage({
-        path: node.frontmatter.path,
+        path: node.frontmatter.title_slug,
         component: path.resolve('src/pages/lyric.js'),
+        context: {
+          title: node.frontmatter.title,
+          album: node.frontmatter.album,
+        },
       })
     })
 
@@ -41,21 +62,16 @@ exports.createPages = ({boundActionCreators, graphql}) => {
       const _album = node.frontmatter.album
       if (_albumsFound.indexOf(_album) === -1) {
         _albumsFound.push(_album)
-        _albumWithMeta.push({
-          date: node.frontmatter.date,
-          // path: node.frontmatter.path,
-          album: node.frontmatter.album,
-          author: node.frontmatter.author,
-        })
+        _albumWithMeta.push(node)
       }
     })
-    // .toLowerCase().replaceAll(' ', '-')
+
     // create a page for each album
-    _albumWithMeta.forEach(item => {
+    _albumWithMeta.forEach(node => {
       createPage({
-        path: `album/${item.album.toLowerCase().replaceAll(' ', '-')}`,
+        path: `album/${node.fields.album_slug}`,
         component: path.resolve('src/pages/album.js'),
-        context: item,
+        context: node.frontmatter,
       })
     })
   })

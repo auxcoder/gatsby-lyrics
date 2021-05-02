@@ -1,7 +1,7 @@
 ---
-path: "/aunque-no-este-de-moda"
-date: "1978"
 title: "Aunque no esté de moda"
+title_slug: "aunque-no-este-de-moda"
+date: "1978"
 track: 8
 album: "Al final de este viaje"
 author: "Silvio Rodríguez"

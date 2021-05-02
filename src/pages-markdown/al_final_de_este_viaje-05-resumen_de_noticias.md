@@ -1,7 +1,7 @@
 ---
-path: "/resumen-de-noticias"
-date: "1978"
 title: "Resumen de noticias"
+title_slug: "resumen-de-noticias"
+date: "1978"
 track: 3
 album: "Al final de este viaje"
 author: "Silvio Rodríguez"

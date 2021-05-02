@@ -1,7 +1,7 @@
 ---
-path: "/la-verguenza"
-date: "1975"
 title: "La Vergüenza"
+title_slug: "la-verguenza"
+date: "1975"
 track: 4
 album: "Días y Flores"
 author: "Silvio Rodríguez"

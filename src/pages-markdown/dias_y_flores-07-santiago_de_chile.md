@@ -1,7 +1,7 @@
 ---
-path: "/santiago-de-chile"
-date: "1975"
 title: "Santiago De Chile"
+title_slug: "santiago-de-chile"
+date: "1975"
 track: 7
 album: "Días y Flores"
 author: "Silvio Rodríguez"

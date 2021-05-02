@@ -1,7 +1,7 @@
 ---
-path: "/en-el-claro-de-la-luna"
-date: "1975"
 title: "En El Claro De La Luna"
+title_slug: "en-el-claro-de-la-luna"
+date: "1975"
 track: 10
 album: "Días y Flores"
 author: "Silvio Rodríguez"

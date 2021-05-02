@@ -1,7 +1,7 @@
 ---
-path: "/que-se-puede-hacer-con-el-amor"
-date: "1978"
 title: "Qué se puede hacer con el amor"
+title_slug: "que-se-puede-hacer-con-el-amor"
+date: "1978"
 track: 5
 album: "Al final de este viaje"
 author: "Silvio Rodríguez"
