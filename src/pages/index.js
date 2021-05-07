@@ -27,7 +27,10 @@ const albumsPage = ({ data }) => {
       <div className="row">
       {albums.map(node => (
         <div key={node.id} className="col-xs-6 col-sm-3">
-          <Link to={`album/${node.fields.album_slug}`}>{node.frontmatter.album} ({node.frontmatter.date})</Link>
+          <Link to={`album/${node.fields.album_slug}`}>
+            <img src={node.fields.album_slug} alt={`${node.frontmatter.album} cover`}/>
+            {node.frontmatter.album} ({node.frontmatter.date})
+          </Link>
         </div>
       ))}
       </div>
