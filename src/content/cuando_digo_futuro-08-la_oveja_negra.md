@@ -4,6 +4,7 @@ title_slug: "la-oveja-negra"
 date: "1977"
 track: 8
 album: "Cuando digo futuro"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

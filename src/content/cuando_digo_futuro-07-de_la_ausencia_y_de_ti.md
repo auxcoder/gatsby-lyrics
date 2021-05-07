@@ -4,6 +4,7 @@ title_slug: "de-la-ausencia-y-de-tí"
 date: "1977"
 track: 7
 album: "Cuando digo futuro"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

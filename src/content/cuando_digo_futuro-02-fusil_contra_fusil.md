@@ -4,6 +4,7 @@ title_slug: "ojala"
 date: "1977"
 track: 2
 album: "Cuando digo futuro"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

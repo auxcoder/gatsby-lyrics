@@ -4,6 +4,7 @@ title_slug: "en-el-claro-de-la-luna"
 date: "1975"
 track: 10
 album: "Días y Flores"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

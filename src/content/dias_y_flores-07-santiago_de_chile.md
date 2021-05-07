@@ -4,6 +4,7 @@ title_slug: "santiago-de-chile"
 date: "1975"
 track: 7
 album: "Días y Flores"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

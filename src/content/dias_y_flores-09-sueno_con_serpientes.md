@@ -4,6 +4,7 @@ title_slug: "sueno-con-serpientes"
 date: "1975"
 track: 9
 album: "Días y Flores"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

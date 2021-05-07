@@ -4,6 +4,7 @@ title_slug: "la-era-está-pariendo-un-corazon"
 date: "1977"
 track: 6
 album: "Cuando digo futuro"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

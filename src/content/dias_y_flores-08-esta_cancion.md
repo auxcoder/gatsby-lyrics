@@ -4,6 +4,7 @@ title_slug: "esta-cancion"
 date: "1975"
 track: 8
 album: "Días y Flores"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

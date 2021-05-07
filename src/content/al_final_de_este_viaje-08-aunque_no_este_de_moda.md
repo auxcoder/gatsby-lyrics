@@ -4,6 +4,7 @@ title_slug: "aunque-no-este-de-moda"
 date: "1978"
 track: 8
 album: "Al final de este viaje"
+cover: "al-final-de-este-viaje.jpg"
 author: "Silvio Rodríguez"
 ---
 

@@ -4,6 +4,7 @@ title_slug: "como-esperando-abril"
 date: "1975"
 track: 3
 album: "Días y Flores"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

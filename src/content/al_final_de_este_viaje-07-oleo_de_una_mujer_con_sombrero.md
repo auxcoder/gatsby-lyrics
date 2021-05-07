@@ -4,6 +4,7 @@ title_slug: "oleo-de-una-mujer-con-sombrero"
 date: "1978"
 track: 7
 album: "Al final de este viaje"
+cover: "al-final-de-este-viaje.jpg"
 author: "Silvio Rodríguez"
 ---
 

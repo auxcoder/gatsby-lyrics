@@ -4,6 +4,7 @@ title_slug: "playa-giron"
 date: "1975"
 track: 2
 album: "Días y Flores"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

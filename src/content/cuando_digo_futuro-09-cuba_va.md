@@ -4,6 +4,7 @@ title_slug: "cuba-va"
 date: "1977"
 track: 9
 album: "Cuando digo futuro"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

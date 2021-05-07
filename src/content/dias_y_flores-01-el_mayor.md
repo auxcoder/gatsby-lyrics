@@ -4,6 +4,7 @@ title_slug: "el-mayor"
 date: "1975"
 track: 1
 album: "Días y Flores"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

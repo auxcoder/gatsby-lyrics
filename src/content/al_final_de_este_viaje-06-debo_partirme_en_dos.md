@@ -4,6 +4,7 @@ title_slug: "debo-partirme-en-dos"
 date: "1978"
 track: 6
 album: "Al final de este viaje"
+cover: "al-final-de-este-viaje.jpg"
 author: "Silvio Rodríguez"
 ---
 

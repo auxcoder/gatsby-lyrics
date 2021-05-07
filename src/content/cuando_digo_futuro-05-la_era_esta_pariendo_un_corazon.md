@@ -1,9 +1,10 @@
 ---
 title: "La Era Está Pariendo Un Corazón"
 title_slug: "la-era-está-pariendo-un-corazon"
-date: "1978"
-track: 4
-album: "Al final de este viaje"
+date: "1977"
+track: 6
+album: "Cuando digo futuro"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

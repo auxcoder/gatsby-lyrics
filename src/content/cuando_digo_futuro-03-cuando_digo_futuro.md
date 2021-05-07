@@ -4,6 +4,7 @@ title_slug: "cuando-digo-futuro"
 date: "1977"
 track: 3
 album: "Cuando digo futuro"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

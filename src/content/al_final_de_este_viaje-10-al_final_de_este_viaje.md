@@ -4,6 +4,7 @@ title_slug: "al-final-de-este-viaje"
 date: "1978"
 track: 5
 album: "Al final de este viaje"
+cover: "al-final-de-este-viaje.jpg"
 author: "Silvio Rodríguez"
 ---
 

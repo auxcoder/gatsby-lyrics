@@ -4,6 +4,7 @@ title_slug: "de-una-vez"
 date: "1977"
 track: 10
 album: "Cuando digo futuro"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

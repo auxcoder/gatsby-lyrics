@@ -4,6 +4,7 @@ title_slug: "la-verguenza"
 date: "1975"
 track: 4
 album: "Días y Flores"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

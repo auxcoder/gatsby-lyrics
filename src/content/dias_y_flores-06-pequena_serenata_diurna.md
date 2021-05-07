@@ -4,6 +4,7 @@ title_slug: "yo-digo-que-las-estrellas"
 date: "1975"
 track: 5
 album: "Días y Flores"
+cover: ""
 author: "Silvio Rodríguez"
 ---
 

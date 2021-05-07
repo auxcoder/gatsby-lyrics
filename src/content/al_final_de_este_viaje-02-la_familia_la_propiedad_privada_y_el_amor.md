@@ -4,6 +4,7 @@ title_slug: "la-familia-la-propiedad-privada-y-el-amor"
 date: "1978"
 track: 2
 album: "Al final de este viaje"
+cover: "al-final-de-este-viaje.jpg"
 author: "Silvio Rodríguez"
 ---
 
