@@ -37,13 +37,13 @@ author: "Silvio Rodríguez"
 
 ---
 
-- Hay cuatro ni�os ahora mismo sonriendo en una plaza
+- Hay cuatro niños ahora mismo sonriendo en una plaza
 - y en la trastienda da una bala un militar que no ha dormido.
 
 ---
 
 - Y aquella linda muchachita vuelve a recortar su saya
-- si es importante desde un ni�o hasta el largo de un vestido.
+- si es importante desde un niño hasta el largo de un vestido.
 
 ---
 

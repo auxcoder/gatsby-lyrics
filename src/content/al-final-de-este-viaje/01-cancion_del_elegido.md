@@ -4,7 +4,7 @@ title_slug: "cancion-del-elegido"
 date: "1978"
 track: 1
 album: "Al final de este viaje"
-cover: "al-final-de-este-viaje.jpg"
+cover: "./al-final-de-este-viaje.jpg"
 author: "Silvio Rodríguez"
 ---
 

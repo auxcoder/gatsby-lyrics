@@ -30,7 +30,7 @@ author: "Silvio Rodríguez"
 
 ---
 
-- �Que se puede hacer con el amor...
+- ¡Que se puede hacer con el amor...
 
 ---
 
