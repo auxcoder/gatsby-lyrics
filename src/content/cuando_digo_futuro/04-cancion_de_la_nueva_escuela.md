@@ -18,7 +18,7 @@ author: "Silvio Rodríguez"
 - Estos son sus jardines,
 - estos son sus semilleros
 - hechos con adoquines
-- en verg�enza, piedra y lucero.
+- en vergüenza, piedra y lucero.
 
 ---
 
@@ -27,7 +27,7 @@ author: "Silvio Rodríguez"
 - de aquella semilla,
 - vemos en estos muros
 - un preludio del futuro
-- que lo bueno de los a�os duros
+- que lo bueno de los años duros
 - salvaron de ayer.
 
 ---
@@ -38,7 +38,7 @@ author: "Silvio Rodríguez"
 - más que vivir juramos
 - por los sueños por las manos
 - que por este edificio
-- sin due�o se hicieron doler, doler,
+- sin dueño se hicieron doler, doler,
 
 ---
 
