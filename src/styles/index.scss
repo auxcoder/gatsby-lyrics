@@ -1,3 +1,73 @@
 @import './variables';
 @import './reset';
 @import './grid';
+
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+
+.covers {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 320px;
+
+  .card {
+    width: 25%;
+    overflow: hidden;
+    position: relative;
+
+    .cover {
+      margin-bottom: 0;
+    }
+
+    .cover-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,.6);
+      z-index: 2;
+      opacity: 0;
+      transition: all .3s ease 0s;
+    }
+
+    &:hover .cover-overlay {
+      opacity: 1;
+    }
+
+    .cover-content {
+      z-index: 10;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+
+      .cover-title {
+        font-weight: 700;
+        font-size: 1.375rem;
+        text-shadow: 0 1px 3px rgb(0 0 0 / 10%);
+        transform: translateY(-45px);
+      }
+
+      .cover-title, .cover-bottom {
+        color: #fff;
+        transition: all .4s ease 0s;
+        opacity: 0;
+      }
+    }
+
+    &:hover .cover-content {
+      .cover-title, .cover-bottom {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  }
+}
