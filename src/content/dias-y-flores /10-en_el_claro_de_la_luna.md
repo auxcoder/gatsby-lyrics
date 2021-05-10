@@ -11,31 +11,31 @@ author: "Silvio Rodríguez"
 - En el claro de la luna
 - donde quiero ir a jugar
 - duerme la reina fortuna
-- que tendra que madrugar.
+- que tendrá que madrugar.
 
 ---
 
-- Mi guardiana de la suerte Sueña cercada de flor
+- Mi guardiana de la suerte sueña cercada de flor
 - que me salvas de la muerte con fortuna en el amor.
 
 ---
 
 - Sueña, talisman querido
-- Sueña mi abeja y su edad
-- Sueña y si lo ha merecido
-- Sueña mi felicidad.
+- sueña mi abeja y su edad
+- sueña y si lo ha merecido
+- sueña mi felicidad.
 
 ---
 
-- Sueña caballos cerreros Sueñame viento del sur
-- Sueña un tiempo de aguaceros en el valle de la luz.
+- Sueña caballos cerreros sueñame viento del sur
+- sueña un tiempo de aguaceros en el valle de la luz.
 
 ---
 
 - Sueña lo que hago y no digo
-- Sueña en plena libertad
-- Sueña que hay dias en que vivo
-- Sueña lo que hay que callar.
+- sueña en plena libertad
+- sueña que hay dias en que vivo
+- sueña lo que hay que callar.
 
 ---
 
@@ -45,7 +45,7 @@ author: "Silvio Rodríguez"
 ---
 
 - Mas si yo pudiera hacerle miel de abeja en vez de sal
-- a que tentarle la suerte que valiera suso�ar?
+- a que tentarle la suerte que valiera su soñar?
 
 ---
 
@@ -54,10 +54,10 @@ author: "Silvio Rodríguez"
 
 ---
 
-- Sueña lo que hago y no digo Sueña en plena libertad
-- Sueña que hay dias en que vivo Sueña lo que hay que callar.
+- Sueña lo que hago y no digo sueña en plena libertad
+- sueña que hay dias en que vivo sueña lo que hay que callar.
 
 ---
 
-- Sueñe la playa del dia del dia que fui, del que soy
-- que el de mañana alma mia lo tengo soñado hoy.
+- Sueñe la talla del dia del dia que fui, del que soy
+- que el de mañana alma mía lo tengo soñado hoy.
