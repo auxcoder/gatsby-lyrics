@@ -46,6 +46,7 @@ const albumsPage = ({ data }) => {
 }
 
 export default albumsPage;
+// gatsbyImageData(layout: FULL_WIDTH)
 
 export const pageQuery = graphql`
 query AlbumsIndexQuery {
@@ -59,7 +60,11 @@ query AlbumsIndexQuery {
           date
           cover {
             childImageSharp {
-              gatsbyImageData(layout: FULL_WIDTH)
+              gatsbyImageData(
+                width: 250
+                placeholder: BLURRED
+                formats: [AUTO, WEBP]
+              )
             }
           }
         }
