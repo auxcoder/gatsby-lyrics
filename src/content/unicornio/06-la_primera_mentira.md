@@ -6,6 +6,7 @@ track: 6
 album: "Unicornio"
 cover: "./unicornio.jpg"
 author: "Silvio Rodríguez"
+---
 
 - Cuando estuve en un bosque encantado,
 - noté con asombro que una piedra me cantaba,

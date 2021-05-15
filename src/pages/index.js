@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import { graphql } from 'gatsby'
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 // components
 import Layout from "../layouts/index";
 //
@@ -20,7 +20,6 @@ const albumsPage = ({ data }) => {
     if (nameA > nameB) return 1;
     return 0;
   })
-
   return (
     <Layout>
       <h1>Albums</h1>
@@ -30,7 +29,7 @@ const albumsPage = ({ data }) => {
         <div key={node.id} className="card">
           <Link to={`album/${node.fields.album_slug}`} >
             <div className="cover-overlay"></div>
-            <Img className="cover" fluid={node.frontmatter.cover.childImageSharp.fluid} />
+            <GatsbyImage className="cover" image={node.frontmatter.cover?.childImageSharp.gatsbyImageData} alt="Album cover" />
             <div className="cover-content">
               <div className="cover-title">{node.frontmatter.album} ({node.frontmatter.date})</div>
               <div className="cover-bottom">
@@ -48,6 +47,7 @@ const albumsPage = ({ data }) => {
 
 export default albumsPage;
 
+// gatsbyImageData(layout: FULL_WIDTH)
 export const pageQuery = graphql`
 query AlbumsIndexQuery {
   allMarkdownRemark(sort: {fields: [frontmatter___album, frontmatter___track], order: ASC}) {
@@ -60,9 +60,11 @@ query AlbumsIndexQuery {
           date
           cover {
             childImageSharp {
-              fluid(maxWidth: 800) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(
+                width: 250
+                placeholder: BLURRED
+                formats: [AUTO, WEBP]
+              )
             }
           }
         }
