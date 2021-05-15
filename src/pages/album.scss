@@ -1,0 +1,23 @@
+.track {
+  display: flex;
+  padding: 7px 0;
+
+  .track-cover {
+    margin-right: 12px;
+  }
+
+  .track-number {
+    min-width: 2rem;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .track-meta {
+    display: flex;
+    flex-direction: column;
+  }
+}
