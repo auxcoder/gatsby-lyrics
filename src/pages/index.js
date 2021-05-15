@@ -46,8 +46,8 @@ const albumsPage = ({ data }) => {
 }
 
 export default albumsPage;
-// gatsbyImageData(layout: FULL_WIDTH)
 
+// gatsbyImageData(layout: FULL_WIDTH)
 export const pageQuery = graphql`
 query AlbumsIndexQuery {
   allMarkdownRemark(sort: {fields: [frontmatter___album, frontmatter___track], order: ASC}) {
